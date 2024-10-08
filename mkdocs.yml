@@ -1,0 +1,21 @@
+site_name: Documentation in-class
+
+theme: material
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_heading: false
+            show_root_toc_entry: false
+
+nav:
+  - Home: index.md
+  - Reference:
+    - Andrew's functions: reference/funcs_andrew.md
+    - My functions: reference/funcs_me.md
+  - Tutorial: tutorial/tutorial.md
+  - How-to: how-to/how-to.md
+  - Explanation: explanation/explanation.md
